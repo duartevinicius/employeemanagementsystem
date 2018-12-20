@@ -1,0 +1,56 @@
+[
+  {
+    "id": 10,
+    "name": "Marcio Vinicius",
+    "school": "UNITAU",
+    "info": "Desenvolvimento de soluções web para a área de saúde/logística, usando tecnologias Java (Spring, Hibernate além de diversos libs e frameworks da plataforma) e web/javascript; Desenvolvimento front-end: gulp, grunt, webpack, ReactJS e AngularJS ; Bancos de dados: Postgres e Oracle",
+    "img": "https://media.licdn.com/dms/image/C5603AQFYnbn7zZhZlQ/profile-displayphoto-shrink_800_800/0?e=1550707200&v=beta&t=MVIePB0IyOkn7em383ytXYHq6qiPgGRrBh6y79XCZ4g",
+    "position":"Especialista Desenvolvimento Software, Project Owner",
+    "email":"mvcesar@fitec.org.br"
+  },
+  {
+    "id": 11,
+    "name": "Jonnatas Silva",
+    "school": "FATEC",
+    "info": "Aprendizado e desenvolvimento Java Web, utilizando diversos frameworks amplamente utilizados no mercado. Atuando principalmente nas verticais de Sustentação e Projetos.",
+    "img": "https://media.licdn.com/dms/image/C5603AQG1UcfxqgbeMw/profile-displayphoto-shrink_800_800/0?e=1550707200&v=beta&t=KesThvbxdJCSbdoJgsNZ1EO5HzlCpHd-NKRF0rJrof8",
+    "position":"Especialista Desenvolvimento Software",
+    "email":"jasilva@fitec.org.br"
+  },
+  {
+    "id": 7,
+    "name": " Lucas Andrade",
+    "school": "ETEP",
+    "info": "Tecnologias: Java 7, NoSQL CassandraDB, DBeaver ferramenta de acesso ao banco de dados, Git, Postman, Apache Maven, Gerrit ferramenta de revisão de código, RESTful APIs, IDE Eclipse, SonarQube, Spring Boot, Jenkins integração contínua ",
+    "img": "https://media.licdn.com/dms/image/C4E03AQFrkdtfA2ICJw/profile-displayphoto-shrink_800_800/0?e=1550707200&v=beta&t=km_TkhtxVtm4cevNYnkU4IvHErxgFrM6RYbCjsOADzg",
+    "position":"Especialista Desenvolvimento Software",
+    "email":"landrade@fitec.org.br"
+  },
+  {
+    "id": 2,
+    "name": "Lucas Mantovani",
+    "school": "ETEP",
+    "info": "Desenvolvimento de sistema de suporte as operações de companhias de telecom. Tecnologias utilizadas: Java 8 Angular 2/5 OSGi  Metodologia ágil (SCRUM) para o desenvolvimento das atividades.",
+    "img": "https://media.licdn.com/dms/image/C4D03AQHIhf0QkuebNQ/profile-displayphoto-shrink_800_800/0?e=1550707200&v=beta&t=uAkQ9BPUW_vh0_Pjf08bWovg3egTxieOXU0oSWuL0l0",
+    "position":"Especialista Desenvolvimento Software",
+    "email":"lmantovani@fitec.org.br"    
+  },
+  {
+    "id": 4,
+    "name": "Lucas Rosa",
+    "school": "ETEP",
+    "info": "Sou desenvolvedor de Web e Java. Estudante de Engenharia de Computação. Atualmente, estou cem por cento focado em estudos sobre desenvolvimento de software, principalmente desenvolvimento de aplicativos Web juntamente com as melhores práticas de programação, como código limpo (Uncle Bob), padrões de design (GoF), etc. Eu também sou um usuário de Linux, comecei a usar em 2014 e agora isso faz parte da minha vida.",
+    "img": "https://media.licdn.com/dms/image/C4E03AQGigwiyu1ZiIQ/profile-displayphoto-shrink_800_800/0?e=1550707200&v=beta&t=P-wj47jt6jtXRCCTpp2NV9ht0tGNip9Z3s2fZ3EsGMo",
+    "position":"Especialista Desenvolvimento Software",
+    "email":"lmantovani@fitec.org.br"
+  },
+  {
+    "id": 1,
+    "name": "Heitor Bernadino",
+    "school": "FATEC",
+    "info": "I have been working in software development since 2012. In this period of time I have dedicated myself to the learning of the most popular languages and frameworks used both in the projects I have worked on and in the wider sector.Among the languages and technologies I've worked on I can highlight Java, Android, Ruby, .Net, Javascript, EC2, S3, Docker and Jenkins as the most frequently used. ",
+    "img": "https://media.licdn.com/dms/image/C4D03AQGyI0L0BtVXjA/profile-displayphoto-shrink_800_800/0?e=1550102400&v=beta&t=rjd5C34hkZ5eARiFYzaaalgOm5ZcarO9IgBTdpEZhfM",
+    "position":"Especialista Desenvolvimento Software",
+    "email":"hbernardino@fitec.org.br"
+  }
+]
