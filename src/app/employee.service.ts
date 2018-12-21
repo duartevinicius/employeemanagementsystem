@@ -7,7 +7,7 @@ import { IEmployee } from './employee';
   providedIn: 'root'
 })
 export class EmployeeService {
-  private _url = '/assets/data/employees.json';
+  private _url = 'http://localhost:8080/employees';
 
   constructor(private http: HttpClient) { }
   // tslint:disable-next-line:semicolon
