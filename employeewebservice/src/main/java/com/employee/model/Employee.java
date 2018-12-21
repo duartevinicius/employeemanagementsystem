@@ -1,4 +1,4 @@
-package employee_webservice.model;
+package com.employee.model;
 
 public class Employee {
 private int id;

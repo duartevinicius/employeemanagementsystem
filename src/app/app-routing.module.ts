@@ -18,9 +18,6 @@ const routes: Routes = [{
     path: 'departments/:id', component: DepartmentDetailComponent
 },
 {
-    path: 'employees_info', component: EmployeeDetailComponent
-},
-{
     path: '', redirectTo: AppComponent, pathMatch: 'full'
 },
 {
