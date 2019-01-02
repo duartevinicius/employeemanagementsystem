@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { EmployeeService } from '../employee.service';
 import { ActivatedRoute, Router, ParamMap } from '@angular/router';
+import { IEmployee } from '../employee';
 @Component({
   selector: 'app-employee-detail',
   template: `
@@ -24,21 +25,23 @@ import { ActivatedRoute, Router, ParamMap } from '@angular/router';
   styleUrls: ['./employee-detail.component.css']
 })
 export class EmployeeDetailComponent implements OnInit {
-  public employee;
+  public employee: IEmployee;
   public clicked = false;
   constructor(private _employeeService: EmployeeService, private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit() {
-    this._employeeService.getEmployees()
-      .subscribe(data => {
-        // o metodo acima faz a request e chama observable casteado
-        this.route.paramMap.subscribe((params: ParamMap) => {
-          const id = parseInt(params.get('id'));
-          console.log(id);
-          this.employee = data.filter(employee => employee.id === id)[0];
-          console.log(JSON.stringify(this.employee));
+    this.route.paramMap.subscribe((params: ParamMap) => {
+      const id = params.get('id');
+      console.log(id);
+      // this.employee = data.filter(employee => employee.id === id)[0];
+      // console.log(JSON.stringify(this.employee));
+      this._employeeService.getEmployee(id)
+        .subscribe(data => {
+          this.employee = <IEmployee>data;
+          // o metodo acima faz a request e chama observable casteado
+
         });
-      });
+    });
     // o metodo acima subscreve o observable ao vetor da classe
   }
   handleClick($event) {

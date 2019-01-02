@@ -7,7 +7,7 @@ import { ActivatedRoute, Router, ParamMap } from '@angular/router';
   template: `
   <h2 style="font-family:Arial; color:blue; text-align: center">Here is the Team 31, the best coders of Paraiba Valley: </h2>
   <div class="center"><p-listbox  [options]="employees" optionLabel="name" [(ngModel)]="selected" (click)="onSelect(selected)" ></p-listbox>
-  </div><!--> 
+  </div><!-->
   < ul *ngFor ="let employee of employees">
     <li class=list (click)="onSelect(employee)"> {{employee.id}} - {{employee.name}}</li>
   </ul> <-->

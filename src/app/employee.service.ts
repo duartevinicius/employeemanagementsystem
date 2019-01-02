@@ -15,6 +15,10 @@ export class EmployeeService {
     return this.http.get<IEmployee[]>(this._url);
     // retorna um observable com cast de employee
   }
+  public getEmployee(id: string): Observable<IEmployee> {
+    return this.http.get<IEmployee>(this._url + '/' + id);
+    // retorna um observable com cast de employee
+  }
   public testgetEmployees(): Observable<any> {
     return this.http.get<any>(this._url);
     // retorna um observable com cast de employee

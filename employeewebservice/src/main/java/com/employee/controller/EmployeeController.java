@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -24,12 +25,19 @@ public class EmployeeController {
 	       return jsonPath.employeesInfo();
 	       
 	   }
-	 /*
 	   @RequestMapping(value = "/{id}", method = RequestMethod.GET)
 	   @ResponseBody
-	   public Foo findOne(@PathVariable("id") Long id) {
-	       return RestPreconditions.checkFound( jsonPath.findOne( id ));
+	   public Employee findOne(@PathVariable("id") int id) throws JsonParseException, JsonMappingException, IOException {
+		   ArrayList<Employee> Employees = jsonPath.employeesInfo();
+		   for(Employee employee : Employees) { 
+			   if(employee.getId()==id) { 
+				   return employee;
+			       //found it!
+			   }
+			}
+		return null;
 	   }
+	   /*
 	 
 	   @RequestMapping(method = RequestMethod.POST)
 	   @ResponseStatus(HttpStatus.CREATED)
