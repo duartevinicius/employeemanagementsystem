@@ -5,9 +5,8 @@ import { IEmployee } from '../employee';
 @Component({
   selector: 'app-employee-detail',
   template: `
-  
   <h2> {{employee?.position}} </h2>
-  <div class="center">  
+  <div class="center">
 <p-card header=" {{employee?.name}}" subheader="{{employee?.school}}" [style]="{width: '240px'}" styleClass="ui-card-shadow">
     <p-header>
         <img src="{{employee?.img}}">

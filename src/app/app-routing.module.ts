@@ -12,10 +12,10 @@ const routes: Routes = [{
     ]
 },
 {
-    path: 'departments', component: DepartmentListComponent
+    path: 'projects', component: DepartmentListComponent
 },
 {
-    path: 'departments/:id', component: DepartmentDetailComponent
+    path: 'projects/:id', component: DepartmentDetailComponent
 },
 {
     path: '', redirectTo: AppComponent, pathMatch: 'full'

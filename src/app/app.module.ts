@@ -9,6 +9,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import {ListboxModule} from 'primeng/listbox';
 import { FormsModule } from '@angular/forms';
+import {TabMenuModule} from 'primeng/tabmenu';
+
 
 
 
@@ -26,7 +28,8 @@ import { FormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     ButtonModule,
     ListboxModule,
-    FormsModule
+    FormsModule,
+    TabMenuModule
   ],
   providers: [EmployeeService],
   bootstrap: [AppComponent]

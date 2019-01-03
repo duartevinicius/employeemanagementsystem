@@ -1,17 +1,15 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-  <h1>
 
-  </h1>
-  <img width="200" alt="Angular Logo" src="https://media.lovemondays.com.br/logos/14bc59/fundacao-para-inovacoes-tecnologicas-fitec-2-original.png">
 </div>
 <nav>
-<a routerLink="/departments" > Departamentos</a>
-<a routerLink ="/employees"> Desenvolvedores</a>
-<!-- > <a routerLink ="/employees_info"> Details</a> <-->
-
-
-
+   <img width="100" alt="Angular Logo" src="https://media.lovemondays.com.br/logos/14bc59/fundacao-para-inovacoes-tecnologicas-fitec-2-original.png">
+    <p-tabMenu [model]="items" [class.selected]="items[0]"></p-tabMenu>
+ <!-- > <a routerLink="/departments" > Departamentos</a>
+  <a routerLink ="/employees"> Desenvolvedores</a>
+   <a routerLink ="/employees_info"> Details</a> <-->
+  
+  
 </nav>
 
 <router-outlet></router-outlet>
